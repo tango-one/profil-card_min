@@ -2,3 +2,19 @@ body {
     margin: 0;
     padding: 0;
 }
+
+
+.container {
+    width: 100vw;
+    height: 100vh;
+    background-color: pink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-card {
+    background-color: orange;
+    width: 200px;
+    height: 200px;
+}
