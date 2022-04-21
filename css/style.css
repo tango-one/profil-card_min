@@ -7,7 +7,7 @@ body {
 .container {
     width: 100vw;
     height: 100vh;
-    background-color: pink;
+    /*background-color: pink;*/
     display: flex;
     justify-content: center;
     align-items: center;
@@ -26,23 +26,27 @@ body {
 
 
 
+
+
+.top {
+  width: 100vh;
+  height: 10px;
+  top: 0;
+  left: 0%;
+  position: absolute;
+}
+
+
 .bottom {
 
   width: 100vh
   height: 10px;
 
   bottom: 0;
-  left: 104vh;
+  left: 93%;
   position: absolute;
-  background-color: pink;
+  
+  background-image: url(./img/bg-pattern-bottom.svg);
 
 
-}
-
-.top {
-  width: 100vh;
-  height: 10px;
-  top: 0;
-  left: 0px;
-  position: absolute;
 }
